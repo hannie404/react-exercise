@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-exercise/static/css/main.bd75129f.css",
+    "main.js": "/react-exercise/static/js/main.10938dbf.js",
+    "static/js/787.c2651d7e.chunk.js": "/react-exercise/static/js/787.c2651d7e.chunk.js",
+    "static/media/bolaga.png": "/react-exercise/static/media/bolaga.3accdb4a19620015c4d9.png",
+    "static/media/BlackBlue.png": "/react-exercise/static/media/BlackBlue.06da86164fe8564f4fed.png",
+    "index.html": "/react-exercise/index.html",
+    "main.bd75129f.css.map": "/react-exercise/static/css/main.bd75129f.css.map",
+    "main.10938dbf.js.map": "/react-exercise/static/js/main.10938dbf.js.map",
+    "787.c2651d7e.chunk.js.map": "/react-exercise/static/js/787.c2651d7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd75129f.css",
+    "static/js/main.10938dbf.js"
+  ]
+}
