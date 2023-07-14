@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Timer from '../pages/Timer';
+import Stopwatch from '../pages/Stopwatch';
+import { Stop } from '@mui/icons-material';
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <Timer />
+      <Stopwatch />
+    </div>
   )
 }
 

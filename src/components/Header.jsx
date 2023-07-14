@@ -15,7 +15,7 @@ function Header() {
       {['lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="/"><img src={ Image } style={{width: 200}}/></Navbar.Brand>
+            <Navbar.Brand href="/Home"><img src={ Image } style={{width: 200}}/></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -29,9 +29,10 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="d-flex justify-content-end flex-grow-1 pe-3 align-items-center">
-                  <Link to='/' className='ms-3 text-decoration-none text-dark'>Home</Link>
+                  <Link to='/Home' className='ms-3 text-decoration-none text-dark'>Home</Link>
                   <Link to='/About' className='ms-3 text-decoration-none text-dark'>About</Link>
                   <Link to='/Contact' className='ms-3 text-decoration-none text-dark'>Contact</Link>
+                  <Link to='/ProductPage' className='ms-3 text-decoration-none text-dark'>Product</Link>
                   <NavDropdown
                     title="Projects"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}

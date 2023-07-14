@@ -1,6 +1,6 @@
 import React from 'react';
+import boardData from './BoardData';
 import { Table } from 'react-bootstrap';
-import boardData from '../components/BoardData';
 
 const MyTable = ({ boardData }) => {
   return (
